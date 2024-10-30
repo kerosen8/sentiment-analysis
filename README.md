@@ -61,7 +61,8 @@ docker-compose down
 In both cases, time is needed to install the Hugging Face library (500 MB), during which the server will be unavailable. In the case of a local installation, this is done once, and the library is cached.
 
 ## Preview
-![изображение](https://github.com/user-attachments/assets/6230c41b-2554-4588-9a47-c86ff72fd5ec)![изображение](https://github.com/user-attachments/assets/877717d5-c641-461f-a780-718e21dc6c97)
+![изображение](https://github.com/user-attachments/assets/b1134000-6acf-4074-a758-e1d0c4de4405)![изображение](https://github.com/user-attachments/assets/cd109446-3329-4bd7-bfa9-01ba1d99e794)
+
 
 
 ## Features
