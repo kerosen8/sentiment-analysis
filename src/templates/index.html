@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="/static/style.css">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="messages" id="messages">
+            {% for message in messages %}
+                <div class="message {{ message.sender }}">{{ message.text }}</div>
+            {% endfor %}
+        </div>
+        <form id="messageForm" class="message-form">
+            <input id="messageInput" type="text" name="message" placeholder="Type your message here..." required>
+            <button type="submit" id="submitButton">Send</button>
+        </form>
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
